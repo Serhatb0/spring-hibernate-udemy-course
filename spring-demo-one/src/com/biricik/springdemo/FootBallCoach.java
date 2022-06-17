@@ -7,4 +7,10 @@ public class FootBallCoach implements Coach {
 		return "Practice 30 min Penalty";
 	}
 
+	@Override
+	public String getDailyFortune() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
