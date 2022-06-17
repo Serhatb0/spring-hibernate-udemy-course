@@ -21,6 +21,9 @@
     <bean id="myCricketCoach" class="com.biricik.springdemo.CricketCoach">
     	<!-- set up setter injection -->
     	<property name="fortuneService" ref="myFortuneService"></property>
+    	<!-- inject literal value -->
+    	<property name="emailAddress" value="biricikserhat47@gmail.com"></property>
+    	<property name="team" value="biricik Team"></property>
     </bean>
     
 </beans>
