@@ -3,7 +3,7 @@
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="com.biricik.springdemo.BaseballCoach"/>
     <fullyQualifiedTypeName name="com.biricik.springdemo.FortuneService"/>
-    <fullyQualifiedTypeName name="com.biricik.springdemo.CricketCoach"/>
     <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
     <fullyQualifiedTypeName name="com.biricik.springdemo.Coach"/>
+    <fullyQualifiedTypeName name="com.biricik.springdemo.CricketCoach"/>
 </qualifiedTypeNameHistroy>
