@@ -4,6 +4,8 @@
     <fullyQualifiedTypeName name="com.biricik.springdemo.BaseballCoach"/>
     <fullyQualifiedTypeName name="com.biricik.springdemo.FortuneService"/>
     <fullyQualifiedTypeName name="com.biricik.springdemo.CricketCoach"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
     <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.cache.Cache"/>
     <fullyQualifiedTypeName name="com.biricik.springdemo.Coach"/>
 </qualifiedTypeNameHistroy>
