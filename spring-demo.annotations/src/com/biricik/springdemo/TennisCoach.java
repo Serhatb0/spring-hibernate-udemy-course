@@ -1,5 +1,8 @@
 package com.biricik.springdemo;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
@@ -7,7 +10,7 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component
-@Scope("prototype")
+//@Scope("prototype")
 public class TennisCoach implements Coach {
 
 	// define a email and a team
@@ -62,6 +65,18 @@ public class TennisCoach implements Coach {
 
 	public String getTeam() {
 		return team;
+	}
+
+	// define my init method
+	@PostConstruct
+	public void doMyStartupStuff() {
+		System.out.println(">> Tennis Coach: inside of doMyStartupStuff");
+	}
+
+	// define my destroy method
+	@PreDestroy
+	public void doMyCleanupStuff() {
+		System.out.println(">> Tennis Coach: inside of doMyCleanupStuff");
 	}
 
 }

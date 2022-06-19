@@ -3108,3 +3108,18 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-19 20:48:55.331
 !MESSAGE executing callback sts4.classpath.VRgnrOcb SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-19 21:09:05.419
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-19 21:09:05.439
+!MESSAGE classpath=69 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-19 21:09:05.442
+!MESSAGE buffering callback sts4.classpath.VRgnrOcb spring-demo.annotations false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-19 21:09:05.446
+!MESSAGE executing callback sts4.classpath.VRgnrOcb 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-19 21:09:05.646
+!MESSAGE executing callback sts4.classpath.VRgnrOcb SUCCESS [done]
