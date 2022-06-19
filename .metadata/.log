@@ -3057,3 +3057,54 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-19 20:43:50.017
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.AiwsFhjA => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-19 20:48:45.120
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-19 20:48:45.123
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@34bea263[org.springframework.tooling.boot.ls:1.33.0.202204250653(id=569)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-19 20:48:45.124
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-19 20:48:53.305
+!MESSAGE Boot LS startup time from start to initialized: 8174ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-19 20:48:53.950
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.VRgnrOcbisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-19 20:48:53.953
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-19 20:48:53.957
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-19 20:48:53.959
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-19 20:48:53.960
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-19 20:48:53.961
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.VRgnrOcb => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-19 20:48:53.977
+!MESSAGE classpath=68 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-19 20:48:53.983
+!MESSAGE buffering callback sts4.classpath.VRgnrOcb spring-demo.annotations false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-19 20:48:53.986
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-19 20:48:53.989
+!MESSAGE classpath=68 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-19 20:48:53.994
+!MESSAGE buffering callback sts4.classpath.VRgnrOcb spring-demo-one false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-19 20:48:53.998
+!MESSAGE executing callback sts4.classpath.VRgnrOcb 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-19 20:48:55.331
+!MESSAGE executing callback sts4.classpath.VRgnrOcb SUCCESS [done]
